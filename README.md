@@ -3,8 +3,6 @@
 ### Vue-ToDo - My First VueJS Project
 
 <p>I just wanted to try using VueJS, that's it. But I'm gonna go back to React.</p>
-Crash Course used : [Vue 3 Crash Course | Project From Scratch by 
-John Komarnicki](https://www.youtube.com/watch?v=KTFH4P8unUQ)
-
+<p>Crash Course used : Vue 3 Crash Course | Project From Scratch by John Komarnicki on Youtube</p>
 
 Final project : [CLICK HERE](https://vuejs-todo-project.netlify.app/)
