@@ -1,29 +1,10 @@
-# VueJS-ToDo
+<p align="center"><img src="https://forthebadge.com/images/badges/0-percent-optimized.svg"> <img src="https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg"> <img src="https://forthebadge.com/images/badges/made-with-vue.svg"></p>
 
-This template should help get you started developing with Vue 3 in Vite.
+### Vue-ToDo - My First VueJS Project
 
-## Recommended IDE Setup
+<p>I just wanted to try using VueJS, that's it. But I'm gonna go back to React.</p>
+Crash Course used : [Vue 3 Crash Course | Project From Scratch by 
+John Komarnicki](https://www.youtube.com/watch?v=KTFH4P8unUQ)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Final project : [CLICK HERE](https://vuejs-todo-project.netlify.app/)
