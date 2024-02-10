@@ -1,18 +1,33 @@
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref, defineEmits, reactive } from 'vue';
 
 const emit = defineEmits(['create-todo']);
-    const todo = ref("");
+
+    const todoState = reactive({
+        todo: "",
+        invalid: null,
+        errMsg: "",
+    });
+
     const createToDo = () => {
-        emit('create-todo', todo.value);
+        todoState.invalid = null;
+        if(todoState.todo !== ""){
+            emit('create-todo', todoState.todo);
+            todoState.todo = "";
+            return;
+        }
+        todoState.invalid = true;
+        todoState.errMsg = "Todo value cannot be empty."
+        
     }
 </script>
 
 <template>
     <div class="input-wrap">
-        <input type="text" v-model="todo" />
+        <input type="text" v-model="todoState.todo" />
         <button @click="createToDo()">Create</button>
     </div>
+    <p class="err-msg">{{ todoState.errMsg }}</p>
 </template>
 
 
