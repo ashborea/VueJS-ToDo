@@ -27,7 +27,7 @@ const emit = defineEmits(['create-todo']);
         <input type="text" v-model="todoState.todo" />
         <button @click="createToDo()">Create</button>
     </div>
-    <p class="err-msg">{{ todoState.errMsg }}</p>
+    <p v-show="todoState.invalid" class="err-msg">{{ todoState.errMsg }}</p>
 </template>
 
 
